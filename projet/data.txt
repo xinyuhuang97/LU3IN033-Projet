@@ -1,0 +1,54 @@
+Erreur de Syntaxe: Fichier contenant ligne sans OFFSET
+	Ligne imcomplet : 22
+	Ligne imcomplet : 23
+	Ligne imcomplet : 24
+	Ligne imcomplet : 25
+	Ligne imcomplet : 26
+	Ligne imcomplet : 27
+	Ligne imcomplet : 28
+	Ligne imcomplet : 29
+	Ligne imcomplet : 30
+Nombre de Trames: 1
+-----------------------------------1------------------------------------
+Analyse de No 1 trame
+===============================ETHERNET===============================
+Destination: 00:50:7f:05:7d:40
+Source: 00:10:a4:86:2d:0b
+Type: IPv4 (0x0800)
+===================================IP=================================
+100 .... = Version: 4
+.... 101 Header Length: 20 bytes (5)
+Differentiated Services Field: 0x00
+Total Length: 537
+Identification: 0x1798 (6040)
+Flags: 0x4000
+Fragment offset:
+Time to live: 64
+Protocol: TCP (6)
+Header checksum: 0x6c14
+Source: 10.33.182.178
+Destination: 192.55.52.40
+===================================TCP=================================
+Source Port: 33971
+Destination Port: 80
+Sequence number: 3063197880
+Sequence number: 610765289
+1000 ....= Header Length: 32 (8)
+Flags: 0x18 (ACK, PSH)
+Window size value: 5840
+Checksum: 0x60e4
+Urgent pointer: 0
+TCP Option - No-Operation(NOP)
+	Kind:No-Operation(1)
+TCP Option - No-Operation(NOP)
+	Kind:No-Operation(1)
+TCP Option - TimestampsTsval:1873228288 TSval:0
+	Kind:Timestamps(8)
+	Length:10
+	Timestamp value:1873228288
+	Timestamp echo reply:0
+===================================HTTP=================================
+GET / HTTP/1.1
+Host: www.xircom.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.0.0) Gecko/20020623 Debian/1.0.0-0.woody.1
+---------------------------------Fin 1----------------------------------

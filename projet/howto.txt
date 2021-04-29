@@ -1,0 +1,19 @@
+L'execution de programme consiste a utiliser le fichier "annalyser.sh"
+Preaumbule:
+  Commande: chmod +x annalyser.sh
+Emplacement des fichiers de test:./test_file
+Il exist deja cinq tests dans le dossier ./test_file
+
+Help: (vous voulez savoir comment utiliser la commande ou vous voulez savoir les chiffres correspondant aux fichiers)
+  Commande: ./annalyser
+
+Test fichiers locals:
+  Commande: ./annalyser x(chiffre allant de 1 a 5)
+  "1 : test trame HTTP"
+  "2 : test trame option IP"
+  "3 : test deux trame"
+  "4 : test trame incomplet"
+  "5 : test trame sans offset"
+
+Test fichiers ajoutes:
+  Commande: ./annalyser nom_du_fichier

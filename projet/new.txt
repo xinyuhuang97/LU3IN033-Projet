@@ -1,0 +1,7 @@
+GET / HTTP/1.1<cr><lf>Host: www.upmc.fr<cr><lf>
+Upgrade-Insecure-Requests: 1<cr><lf>
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8<cr><lf>
+User-Agent:
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML,like Gecko) Version/13.0.1 Safari/605.1.15<cr><lf>
+Accept-Language:
+fr-fr<cr><lf>Accept-Encoding: gzip, deflate<cr><lf>Connection: keep-alive<cr><lf><cr><lf>
